@@ -12,9 +12,9 @@ int main()
 {
     float a, b, x, x1, x2, f1, f2, eps, fm;
     int n = 0;
-    cout<<("Vvedite tochnost' eps:");
+    cout<<("Epsilon:");
     cin>>eps;
-    cout<<("Vvedite a & b:");
+    cout<<("Vvedit' a & b:");
     cin>>a >> b;
     while (fabs(b - a) > eps) {
         cout << "a=" << a << "\t"<<"b="<<b<<"\t";
@@ -33,6 +33,6 @@ int main()
     }
     x = (b + a) / 2;
     fm = F(x);
-    cout<<"Цільова функція="<<x<< "\t Fmax="<<fm<< "\t Kilkist iteraciy="<<n;
+    cout<<"Tsilyova funkciya="<<x<< "\t Fmax="<<fm<< "\t Kilkist iteraciy="<<n;
     _getch();
 }
