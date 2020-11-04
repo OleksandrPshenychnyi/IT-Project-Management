@@ -6,7 +6,7 @@
 #include <stdio.h>
 using namespace std;
  float F(float x) {
-    return 80 * x - 30 * pow(x, 2) - 0.25 * pow(x, 4);
+    return 50 * x - 40 * pow(x, 2) - 0.23 * pow(x, 4);
 }
 int main()
 {
